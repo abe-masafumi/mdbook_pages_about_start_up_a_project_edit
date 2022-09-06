@@ -1,0 +1,6 @@
+[book]
+authors = ["M1-Masa"]
+language = "en"
+multilingual = false
+src = "src"
+title = "project"
