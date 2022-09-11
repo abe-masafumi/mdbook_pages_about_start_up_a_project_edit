@@ -94,6 +94,12 @@ npx prisma studio
 
 ### 既存のDB情報がある場合⇨DBから自動作成
 
+⚠️⚠️`migrate`コマンドを使用するときは注意してください⚠️⚠️
+
+> `/Desktop/example-pj/prisma/migrations`フォルダの内容を確認し、上書きされる事を認識してから作業してください。
+
+[参考資料](https://www.keisuke69.net/entry/2022/08/17/143620)
+
 DB情報をあらかじめエクスポートしてください。
 
 `schema`を既存のDBから読み取る方法は、`hello-prisma/prisma/schema.prisma`ファイルと`.env`ファイルを既存のDBに接続する設定にし、下記のコマンドを実行。
