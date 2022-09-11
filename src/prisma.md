@@ -96,7 +96,7 @@ npx prisma studio
 
 ⚠️⚠️`migrate`コマンドを使用するときは注意してください⚠️⚠️
 
-> `/Desktop/example-pj/prisma/migrations`フォルダの内容を確認し、上書きされる事を認識してから作業してください。
+> `/Desktop/example-pj/prisma/migrations`フォルダの内容を確認し、データが上書きされる事を認識してから作業してください。
 
 [参考資料](https://www.keisuke69.net/entry/2022/08/17/143620)
 
