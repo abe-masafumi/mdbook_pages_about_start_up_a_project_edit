@@ -143,6 +143,16 @@ Webブラウザでtableが作成されているか確認する
 npx prisma studio
 ```
 
+データ数が０の場合は.envファイルを確認してください
+
+<img src="./img/prisma001.png">
+
+
+成功すると次の画面になります。
+
+<img src="./img/prisma002.png">
+
+
 
 
 
