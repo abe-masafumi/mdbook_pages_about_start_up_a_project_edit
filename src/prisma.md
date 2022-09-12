@@ -6,9 +6,13 @@
 
 ### 環境
 
-MAMP
+MAMP,XAMPが起動している事を確認
 
-PHPMyadomin
+PHPMyadomin⇨⇨user名、ホスト名、ポートの確認(パスワードは確認できない)
+
+<img src="./img/MAMP設定.png">
+
+[情報の確認、パスワードの再設定](https://www.javadrive.jp/phpmyadmin/user/index3.html)
 
 ### DB管理用のプロジェクトを作成する
 
@@ -25,11 +29,12 @@ cd hello-prisma
 TypeScript プロジェクトを初期化し、Prisma CLI を開発依存関係として追加
 
 ```bush
+<!-- package.jsonの作成 -->
 npm init -y 
 npm install prisma typescript ts-node @types/node --save-dev
 ```
 
-Prisma CLI を起動する。(いらないかも)
+Prismaで使用できるコマンドが見れる
 
 ```bush
 npx prisma
@@ -114,7 +119,7 @@ npx prisma db pull
 
 次に、`hello-prisma/prisma/schema.prisma`ファイルと`.env`ファイルを新しく作成するDBの接続設定にする。
 
-変更を確認したら以下のコマンドを実行し、テーブルを自動で作成する
+変更を確認したら以下のコマンドを実行し、テーブルを自動で作成する(テーブルのみが生成される)
 
 ```bush
 npx prisma migrate dev --name init
